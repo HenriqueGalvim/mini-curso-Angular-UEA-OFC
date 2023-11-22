@@ -1,0 +1,30 @@
+header{
+    height: 13%;
+    background-color: black;
+}
+
+header img {
+    max-height: 80px;
+    margin-left: 1rem;
+} 
+
+.nav-bar{
+    color: aliceblue;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: first baseline ;
+}
+
+.links{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.links {
+    list-style: none;
+}
+.nav-bar .links a{
+    display: inline-block;
+    text-decoration: none;
+    color: aliceblue;
+}
