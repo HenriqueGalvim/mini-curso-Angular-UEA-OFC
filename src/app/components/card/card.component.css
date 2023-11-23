@@ -1,4 +1,3 @@
-
 .texto-video {
     margin-left: 1rem;
     margin-top: 1rem;
@@ -10,12 +9,14 @@
 
 .texto-video span:nth-child(1) {
     font-size: 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .nome_autor {
     margin-left: 1rem;
     font-size: .9rem;
     font-weight: 300;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 section {
@@ -23,6 +24,8 @@ section {
     width: 100%;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    border-radius: 10px;
+    
 }
 
 .container-texto-video {
@@ -40,6 +43,8 @@ section {
 
 .text-noticia {
     width: 90%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
 }
 
 .text-noticia p {
